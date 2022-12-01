@@ -140,3 +140,10 @@ Mode Mode::doubles() {
 	r.kernel = "profanity_score_doubles";
 	return r;
 }
+
+Mode Mode::zerobytes() {
+	Mode r;
+	r.name = "zerobytes";
+	r.kernel = "profanity_score_zerobytes";
+	return r;
+}
